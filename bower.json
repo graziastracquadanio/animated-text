@@ -5,7 +5,7 @@
     "Grazia Stracquadanio <graziastracquadanio@gmail.com>"
   ],
   "main": [
-    "src/main.less",
+    "src/less/animated-text.less",
     "animated-text.css",
     "animated-text.js"
   ],

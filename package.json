@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "animated-text angularjs directive",
   "style": "animated-text.css",
-  "less": "src/main.less",
+  "less": "src/less/animated-text.less",
   "main": "animated-text.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

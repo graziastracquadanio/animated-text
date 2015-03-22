@@ -21,18 +21,18 @@
   font-size: 120px;
   padding: 0 5px;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
   .animated-letters-container .f-letter {
     font-size: 100px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .animated-letters-container .f-letter {
     font-size: 90px;
     padding: 0 2px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .animated-letters-container .f-letter {
     font-size: 60px;
     padding: 0 2px;

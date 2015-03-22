@@ -1,4 +1,4 @@
-angular.module('animate-text', [])
+angular.module('animatedText', [])
 
 .directive('animatedText', function () {
 	return {

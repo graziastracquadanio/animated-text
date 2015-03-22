@@ -36,7 +36,7 @@ module.exports = function (grunt) {
 					cleancss: true
 				},
 				files: {
-					"animated-text.css": "src/less/main.less"
+					"animated-text.css": "src/less/animated-text.less"
 				}
 			}
 		},
