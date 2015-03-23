@@ -30,6 +30,22 @@
 // animated text style
 // -------------------
 // 
+
+// settings
+.f-letter {
+	font-family: @animated-font-family;
+	font-weight: @animated-font-weight;
+
+	&.first {
+		color: @animated-text-color;
+	}
+
+	&.second {
+		background-color: @animated-text-color;
+		color: @animated-main-bg-color;
+	}
+}
+
 .animated-letters-container {
 	margin-left: -10px;
 	margin-right: -10px;
@@ -49,8 +65,6 @@
 		display: inline-block;
 		overflow: hidden;
 		line-height: 1;
-		font-family: @animated-font-family;
-		font-weight: @animated-font-weight;
 		
 		font-size: 120px;
 		padding: 0 5px;
@@ -94,12 +108,6 @@
 				&.first {
 					top: 0;
 					left: 0;
-					color: @animated-text-color;
-				}
-
-				&.second {
-					background-color: @animated-text-color;
-					color: @animated-main-bg-color;
 				}
 			}
 
