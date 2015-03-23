@@ -2,10 +2,10 @@
   font-family: monospace;
   font-weight: 400;
 }
-.f-letter.first {
+.f-letter .first {
   color: black;
 }
-.f-letter.second {
+.f-letter .second {
   background-color: black;
   color: white;
 }
